@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(157, 157, 248);
+}
+
+
+/* header style edits */
+h1 {
+    margin: 16x 0;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-align: left;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-align: left;s
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav ul {
+    border: 5px solid rgb(0, 217, 255);
+    background-color: rgb(210, 211, 243);
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;  /* Spread the links out evenly */
+}
+
+
+/* navigation edits */
+/* nav li is a descendant selector */
+nav li {
+    margin: 12px;
+}
+/* nav >a is a child selector */
+nav a {
+    
+    color: rgb(55, 0, 255);            /* Set the color of the links */
+}
+
+nav a:hover {
+    text-decoration: underline;  /* Underline the links when hovered */
+}
+
+
+/* paragraph edits */
+
+
+p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+img {
+    border: 10px solid #757575;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 30px; /* Rounded corners for all four corners */
+    display: block;
+}
+
+
+
+li {
+    display: inline-block;
+    margin-left: 50px;
+    color: green;
+}
+
+
+
+a{
+    text-align: underline;
+    border: #FFFFFF;
+}
